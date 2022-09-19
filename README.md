@@ -1,3 +1,3 @@
 # PROG
 
-## PHP en SQl Leerjaar 2, periode 1
+## PHP en SQL Leerjaar 2, periode 1
