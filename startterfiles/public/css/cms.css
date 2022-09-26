@@ -1,0 +1,39 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.navbar {
+    grid-column: 1 / 8;
+    grid-row: 1;
+    border: gray;
+    border-style: solid;
+}
+
+.sidebar-left {
+    grid-column: 1 / 5;
+    grid-row: 2 / 5;
+    border: gray;
+    border-style: solid;
+}
+
+.sidebar-right {
+    grid-column: 6 / 8;
+    grid-row: 2 / 5;
+    border: gray;
+    border-style: solid;
+}
+
+.footer {
+    grid-column: 1 / 8;
+    grid-row: 5;
+    border: gray;
+    border-style: solid;
+}
+
+.menu {
+    margin: 10px;
+    text-align: right;
+}
